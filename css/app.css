@@ -1,0 +1,30 @@
+/*App.css*/
+
+.nopadding {
+	padding:0!important;
+	margin:0!important;
+}
+
+
+.locationmap {
+	width:100%;
+	height:500px;
+}
+
+.border {
+	border:1px solid black;
+
+}
+
+.nav .navbar-nav {
+	float: right;
+}
+
+#map {
+	margin-top:20px;
+}
+
+.informationdetailed {
+	margin-top: 20px;
+	text-align: left;
+}
