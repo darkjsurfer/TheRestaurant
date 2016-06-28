@@ -5,18 +5,25 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+  <script type="text/javascript">
+
+  $('.carousel').carousel()
+
+  </script>
 </head>
 <body>
 
 	<nav class="navbar navbar-default nopadding">
   <div class="container-fluid">
-    <div class="navbar-header ">
-      <a class="navbar-brand active" href="index.html">THE ROOFBAR</a>
+    <div class="navbar-header">
+      <a class="navbar-brand active" href="index.html">The Roofbar</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="about.html">About</a></li>
+      <li><a href="about.html">Menu</a></li>
       <li><a href="location.html">Location</a></li>
-      <li><a href="#">Order</a></li>
+      <li><a data-toggle="modal" data-target=".bs-example-modal-lg" href="#">Order</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
       <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
@@ -25,7 +32,7 @@
   </div>
 </nav>
 
-<div id="myCarousel" class="carousel slide nopadding" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -79,7 +86,7 @@
 
 	<div class="informationdetailed">
 
-	PHONE
+PHONE
 (718) 606-6532
 
 LOCATION
@@ -106,20 +113,34 @@ Happy Hour  4:00 - 7:00 p.m.
 
 </div> <!-- row -->
 
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...,;l,l;,';l,'
+    </div>
+  </div>
+</div>
+
+<div class="row">
+
 <div class="col-md-12">
 
 	<div class="footer">
 
-
-
-	</div>
-
+	</div> <!-- footer -->
 
 </div> <!-- col-md-12 -->
 
+</div>
 
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
+
+  <SCRIPT TYPE="text/javascript">
+    $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+  })
+  </SCRIPT>
 
 
 
