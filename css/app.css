@@ -15,11 +15,12 @@
 	text-align: center;
 	color:white;
 	letter-spacing: 2px;
+	margin-top:20px;
 }
 
 .textbox {
 	width:100%;
-	height:300px;
+	height:100px;
 	padding:20px;
 	text-align: center;
 }
@@ -37,7 +38,7 @@
 	text-align: left;
 	padding:20px;
 	width:100%;
-	height:300px;
+	height:100px;
 	border:1px solid blue;
 }
 
@@ -50,10 +51,10 @@
 }
 
 .footer {
-	margin-top:30px;
 	width:100%;
-	height:100px;
+	height:50px;
 	background-color:gray;
+	float:left;
 }
 
 .opacity {
@@ -63,4 +64,12 @@
 .about {
 	text-align: center;
 	padding:10px;
+}
+
+
+.meni {
+	width:100%;
+	height:800px;
+	background-color: black;
+	float:left;
 }
